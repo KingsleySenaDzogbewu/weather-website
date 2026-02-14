@@ -1,8 +1,6 @@
   const inputCity = document.querySelector('.input-city');
   const API_KEY = "b3f30b5dbb068f25b8510815f47549dc";
 
- 
-
   function fetchWeatherInfo() {
     const city = inputCity.value.trim();
   
@@ -14,8 +12,6 @@
         alert('City not found');
         return;
       }
-   
-     
 
       const cityName = weatherInfo.name;
       const temperature = weatherInfo.main.temp;
@@ -73,6 +69,7 @@ inputCity.addEventListener('keydown', (event) => {
     fetchWeatherInfo();
   }
 });
+
 
 
 
