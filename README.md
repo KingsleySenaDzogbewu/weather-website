@@ -1,6 +1,6 @@
 Weather Website
 
-This is a simple weather web application that shows the current weather information for any city in the world.
+This is a simple weather web application that provides live data of the weather conditions for any city in the world.
 
 How it works
 Type the name of any city in the input bar and press the Enter key or click the search button. The app will display real-time weather details including:
