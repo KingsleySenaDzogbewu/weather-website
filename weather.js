@@ -1,6 +1,7 @@
   const inputCity = document.querySelector('.input-city');
   const API_KEY = "b3f30b5dbb068f25b8510815f47549dc";
 
+// function to fetch weather info for a given city
   function fetchWeatherInfo() {
     const city = inputCity.value.trim();
   
@@ -69,7 +70,3 @@ inputCity.addEventListener('keydown', (event) => {
     fetchWeatherInfo();
   }
 });
-
-
-
-
